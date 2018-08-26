@@ -39,6 +39,8 @@ https://ja.osdn.net/projects/ttssh2
 
 5-2 vagrant作業ディレクトリの作成とディレクトリ移動
 >mkdir C:\Vagrant\centos7
+
+
 >cd C:\Vagrant\centos7
 
 5-3 centos7のVagrantfileを追加
