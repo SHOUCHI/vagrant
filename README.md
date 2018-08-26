@@ -28,6 +28,10 @@ GuestOS:centos7
 
 vagrant,virtual box,power shell
 
+
+〇インストール手順
+
+
 1 vagrantのインストール
 
 
