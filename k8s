@@ -1,0 +1,29 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "centos/7"
+  config.disksize.size = '50GB'
+
+  #master
+  config.vm.define "master" do |master|
+    master.vm.network "forwarded_port", guest: 22, host: 2240, host_ip: "127.0.0.1", id: "ssh", auto_correct: true
+    master.vm.network "private_network", ip: "192.168.56.11"
+    master.vm.hostname = "master"
+
+    master.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vb.cpus = 1
+    end
+  end
+
+  #node01
+  config.vm.define "node01" do |node01|
+    node01.vm.network "forwarded_port", guest: 22, host: 2241, host_ip: "127.0.0.1", id: "ssh", auto_correct: true
+    node01.vm.network "private_network", ip: "192.168.56.12"
+    node01.vm.hostname = "node01"
+
+    node01.vm.provider "virtualbox" do |vb|
+      vb.memory = "2048"
+      vb.cpus = 1
+    end
+  end
+  
+end
