@@ -64,32 +64,6 @@ https://ja.osdn.net/projects/ttssh2
 >$PSVersionTable
 
 
-Name                           Value
-
-
-----                           -----
-
-
-PSVersion                      3.0
-
-
-WSManStackVersion              3.0
-
-
-SerializationVersion           1.1.0.1
-
-
-CLRVersion                     4.0.30319.42000
-
-
-BuildVersion                   6.2.9200.22198
-
-
-PSCompatibleVersions           {1.0, 2.0, 3.0}
-
-
-PSRemotingProtocolVersion      2.2
-
 5-2 vagrant作業ディレクトリの作成とディレクトリ移動
 
 
