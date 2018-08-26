@@ -35,17 +35,7 @@ https://ja.osdn.net/projects/ttssh2
 以下　power shelｌで作業
 5-1 power shellを起動してバージョンを確認する
 ※バーションが3.0以上であること
-
 >$PSVersionTable
-Name                           Value
-----                           -----
-PSVersion                      3.0
-WSManStackVersion              3.0
-SerializationVersion           1.1.0.1
-CLRVersion                     4.0.30319.42000
-BuildVersion                   6.2.9200.22198
-PSCompatibleVersions           {1.0, 2.0, 3.0}
-PSRemotingProtocolVersion      2.2
 
 5-2 vagrant作業ディレクトリの作成とディレクトリ移動
 >mkdir C:\Vagrant\centos7
@@ -57,11 +47,10 @@ PSRemotingProtocolVersion      2.2
 参考：https://app.vagrantup.com/centos/boxes/7
 5-3 vagrantプラグインをインストール
 >vagrant plugin install vagrant-disksize
-Installing the 'vagrant-disksize' plugin. This can take a few minutes...
-Fetching: vagrant-disksize-0.1.2.gem (100%)
 
 5-4 Vagrantfileの編集
 >notepad .\Vagrantfile
+
 以下のgithubの通りに編集
 https://github.com/gisaburo/vagrant/blob/master/centos7
 
@@ -69,11 +58,10 @@ https://github.com/gisaburo/vagrant/blob/master/centos7
 
 5-5 OS起動
 >vagrant up centos
-==> centos: flag to force provisioning. Provisioners marked to run always will still run.
 
 5-6 ssh情報確認
 >vagrant ssh-config centos
-IdentityFile C:/Vagrant/centos7/.vagrant/machines/centos/virtualbox/private_key
+
 
 ※IdentityFileのパスを取得しておく
 
