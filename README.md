@@ -43,7 +43,7 @@ https://www.vagrantup.com/downloads.html
 https://www.virtualbox.org/wiki/Downloads
 
 インストール後にネットワークアダプタのアドレスを確認する。
-※後述するVargrantFileの設定で必要になります。
+※後述するVargrantfileの設定で必要になります。
 
 3 teratermのインストール
 
@@ -52,7 +52,7 @@ https://ja.osdn.net/projects/ttssh2
 
 4 pc再起動
 
-以下　power shelｌで作業
+以下　power shellで作業
 
 
 5-1 power shellを起動してバージョンを確認する
