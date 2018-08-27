@@ -26,7 +26,7 @@ GuestOS:centos7
 〇tool
 
 
-vagrant,virtual box,power shell
+vagrant,virtual box,power shell,teraterm
 
 
 〇インストール手順
@@ -133,6 +133,12 @@ IdentityFile C:/Vagrant/centos7/.vagrant/machines/centos/virtualbox/private_key
 
 
 6-1 Gestosにlogonする
+
+
+teraterm install
+
+
+https://ja.osdn.net/projects/ttssh2/
 
 
 ・teratermを起動してホストに「centos.vm.network "private_network", ip: "192.168.56.13"」で設定したIPアドレスを設定してOKをクリック
