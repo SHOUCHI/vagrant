@@ -132,7 +132,7 @@ IdentityFile C:/Vagrant/centos7/.vagrant/machines/centos/virtualbox/private_key
 以下、teratermで作業
 
 
-6-1 Gestosにlogonする
+6-1 Guestosにlogonする
 
 
 ・teratermを起動してホストに「centos.vm.network "private_network", ip: "192.168.56.13"」で設定したIPアドレスを設定してOKをクリック
